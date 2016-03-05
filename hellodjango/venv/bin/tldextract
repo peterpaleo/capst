@@ -1,0 +1,9 @@
+#!/h/ppaleo01/capstone/hellodjango/venv/bin/python
+# EASY-INSTALL-ENTRY-SCRIPT: 'tldextract==1.6','console_scripts','tldextract'
+__requires__ = 'tldextract==1.6'
+import sys
+from pkg_resources import load_entry_point
+
+sys.exit(
+   load_entry_point('tldextract==1.6', 'console_scripts', 'tldextract')()
+)
